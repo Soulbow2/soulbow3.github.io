@@ -74,7 +74,7 @@ four.innerHTML="♛";
 five.innerHTML="♚";
 six.innerHTML="♝";
 seven.innerHTML="♞";
-eight.innerHTML="♟"; 
+eight.innerHTML="♜"; 
 nine.innerHTML="♟";
 ten.innerHTML="♟";
 eleven.innerHTML="♟";
@@ -705,4 +705,5 @@ seven.style.background="silver";}, 15000);
 setTimeout(function() {
 fourtythree.style.background="silver";
 id.innerHTML="Reset";}, 16000);}}
+
 
