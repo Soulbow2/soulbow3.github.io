@@ -495,7 +495,7 @@ thirtyseven.style.background="red";
 five.style.background="silver";}, 17000); 
     
 setTimeout(function() {
-thirtysix.style.background="silver";
+thirtyseven.style.background="silver";
 id.innerHTML="Reset";}, 18000);}} 
 
 function danishGambitFour() {
@@ -936,3 +936,4 @@ setTimeout(function() {
 seven.style.background="silver";
 six.style.background="silver";    
 id.innerHTML="Reset";}, 13000);}} 
+
