@@ -1,6 +1,6 @@
 body {background: black;}
 
-main {background: crimson; height: 215px; width: 209px; border: solid 3px red; border-radius: 3px;}
+main {background: crimson; height: 212px; width: 209px; border: solid 3px red; border-radius: 3px;}
 
 div {display: flex;}
 
@@ -19,6 +19,7 @@ border-radius: 3px;}
  border: solid 1px red;
 
 border-radius: 3px;}
+
 
 
 
