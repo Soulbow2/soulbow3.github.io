@@ -8,9 +8,10 @@
 </head>
 <body>
 <br> 
-<section> 
 <header><u>Archer's Learn 2 Chess...</u></header>
 <br> 
+<table>
+<tr><td>    
 <main>
 <div>
 <span class="black" id="one"></span>
@@ -93,8 +94,91 @@
 <span class="black" id="sixtyfour"></span>
 </div>      
 </main> 
-</section>
-<section>  
+</td><td>
+<section>
+<div>
+<span class="black" onclick="board(this)">♜</span>
+<span class="white" onclick="board(this)">♞</span>
+<span class="black" onclick="board(this)">♝</span>
+<span class="white" onclick="board(this)">
+♛</span>
+<span class="black" onclick="board(this)">♚</span>
+<span class="white" ionclick="board(this)">♝</span>
+<span class="black" onclick="board(this)">♞</span>
+<span class="white" onclick="board(this)">♜</span>    
+</div>
+<div>
+<span class="white" onclick="board(this)">♟</span>
+<span class="black" onclick="board(this)">♟</span>
+<span class="white" onclick="board(this)">♟</span>
+<span class="black" onclick="board(this)">♟</span>
+<span class="white" onclick="board(this)">♟</span>
+<span class="black" onclick="board(this)">♟</span>
+<span class="white" onclick="board(this)">♟</span>  
+<span class="black" onclick="board(this)">♟</span>
+</div>
+<div>
+<span class="black" onclick="board(this)"></span>
+<span class="white" onclick="board(this)"></span>
+<span class="black" onclick="board(this)"></span>
+<span class="white" onclick="board(this)"></span>
+<span class="black" onclick="board(this)"></span>
+<span class="white" onclick="board(this)"></span>
+<span class="black" onclick="board(this)"></span>
+<span class="white" onclick="board(this)"></span>    
+</div>
+<div>
+<span class="white" onclick="board(this)"></span>
+<span class="black" onclick="board(this)"></span>
+<span class="white" onclick="board(this)"></span>
+<span class="black" onclick="board(this)"></span>
+<span class="white" onclick="board(this)"></span>
+<span class="black" onclick="board(this)"></span>
+<span class="white" onclick="board(this)"></span>  
+<span class="black" onclick="board(this)"></span>
+</div>  
+<div>
+<span class="black" onclick="board(this)"></span>
+<span class="white" onclick="board(this)"></span>
+<span class="black" onclick="board(this)"></span>
+<span class="white" onclick="board(this)"></span>
+<span class="black" onclick="board(this)"></span>
+<span class="white" onclick="board(this)"></span>
+<span class="black" onclick="board(this)"></span>
+<span class="white" onclick="board(this)"></span>    
+</div>
+<div>
+<span class="white" onclick="board(this)"></span>
+<span class="black" onclick="board(this)"></span>
+<span class="white" onclick="board(this)"></span>
+<span class="black" onclick="board(this)"></span>
+<span class="white" onclick="board(this)"></span>
+<span class="black" onclick="board(this)"></span>
+<span class="white" onclick="board(this)"></span>  
+<span class="black" onclick="board(this)"></span>
+</div>
+<div>
+<span class="black" onclick="board(this)">♙</span>
+<span class="white" onclick="board(this)">♙</span>
+<span class="black" onclick="board(this)">♙</span>
+<span class="white" onclick="board(this)">♙</span>
+<span class="black" onclick="board(this)">♙</span>
+<span class="white" onclick="board(this)">♙</span>
+<span class="black" onclick="board(this)">♙</span>
+<span class="white" onclick="board(this)">♙</span>    
+</div>
+<div>
+<span class="white" onclick="board(this)">♖</span>
+<span class="black" onclick="board(this)">♘</span>
+<span class="white" onclick="board(this)">♗</span>
+<span class="black" onclick="board(this)">♕</span>
+<span class="white" onclick="board(this)">♔</span>
+<span class="black" onclick="board(this)">♗</span>
+<span class="white" onclick="board(this)">♘</span>  
+<span class="black" onclick="board(this)">♖</span>
+</div>      
+</section>      
+</td></tr></table>
 <br>
 <div>  
 <button onclick="danishGambit()">Danish Gambit Bishop</button><button onclick="queensGambitOne()">Queens Gambit Trap</button><button onclick="kingsGambitOne()">Kings Gambit Exchange</button> 
@@ -111,10 +195,11 @@
 <div>   
 <button id="id" onclick="reset(this)">Start</button>  
 </div> 
-</section> 
+<br> <p id="grave" style="opacity: 0%"><p>
 <script src="script.js"></script> 
 </body>
 </html>
+
 
 
 
