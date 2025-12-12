@@ -1,3 +1,4 @@
+const grave = document.getElementById("grave");
 const one = document.getElementById("one");
 const two = document.getElementById("two");
 const three = document.getElementById("three");
@@ -63,6 +64,14 @@ const sixtytwo = document.getElementById("sixtytwo");
 const sixtythree = document.getElementById("sixtythree");
 const sixtyfour = document.getElementById("sixtyfour");
 const id = document.getElementById("id");
+
+function board(element) {
+if (grave.innerHTML== "") {
+grave.innerHTML=element.innerHTML;
+element.innerHTML="";}
+else {
+element.innerHTML=grave.innerHTML;
+grave.innerHTML="";}}
 
 function reset(element) {
 if (element.innerHTML=="Reset" || element.innerHTML=="Start") {
@@ -1189,3 +1198,4 @@ fiftythree.style.background="silver";}, 14000);
 setTimeout(function() {
 thirty.style.background="silver";    
 id.innerHTML="Reset";}, 15000);}} 
+
