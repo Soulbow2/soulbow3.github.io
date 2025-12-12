@@ -937,3 +937,255 @@ seven.style.background="silver";
 six.style.background="silver";    
 id.innerHTML="Reset";}, 13000);}} 
 
+function kingsGambitOne() {        
+if (id.innerHTML=="Select") {   
+setTimeout(function() {
+thirtyseven.innerHTML=fiftythree.innerHTML;
+fiftythree.innerHTML="";
+id.innerHTML="Playing";    
+thirtyseven.style.background="red";}, 1000);  
+
+setTimeout(function() {
+twentynine.innerHTML=thirteen.innerHTML;
+thirteen.innerHTML="";
+twentynine.style.background="red";
+thirtyseven.style.background="silver";}, 2000);
+
+setTimeout(function() {
+thirtyeight.innerHTML=fiftyfour.innerHTML;
+fiftyfour.innerHTML="";
+thirtyeight.style.background="red";
+twentynine.style.background="silver";}, 3000);    
+
+setTimeout(function() {
+thirtyeight.innerHTML=twentynine.innerHTML;
+twentynine.innerHTML="";
+thirtyeight.style.background="red";}, 4000);
+
+setTimeout(function() {
+fourtysix.innerHTML=sixtythree.innerHTML;
+sixtythree.innerHTML="";
+fourtysix.style.background="red";
+thirtyeight.style.background="silver";}, 5000); 
+
+setTimeout(function() {
+thirtyone.innerHTML=fifteen.innerHTML;
+fifteen.innerHTML="";
+thirtyone.style.background="red";
+fourtysix.style.background="silver";}, 6000);
+    
+setTimeout(function() {
+fourty.innerHTML=fiftysix.innerHTML;
+fiftysix.innerHTML="";
+fourty.style.background="red";
+thirtyone.style.background="silver";}, 7000);    
+    
+setTimeout(function() {
+twentytwo.innerHTML=fourteen.innerHTML;
+fourteen.innerHTML="";
+twentytwo.style.background="red";
+fourty.style.background="silver";}, 8000);    
+    
+setTimeout(function() {
+thirtyone.innerHTML=fourtysix.innerHTML;
+fourtysix.innerHTML="";
+thirtyone.style.background="red";
+twentytwo.style.background="silver";}, 9000);     
+
+setTimeout(function() {
+thirtyone.innerHTML=twentytwo.innerHTML;
+twentytwo.innerHTML="";
+thirtyone.style.background="red";}, 10000);     
+    
+setTimeout(function() {
+thirtytwo.innerHTML=sixty.innerHTML;
+sixty.innerHTML="";
+thirtytwo.style.background="red";
+thirtyone.style.background="silver";}, 11000);    
+    
+setTimeout(function() {
+thirteen.innerHTML=five.innerHTML;
+five.innerHTML="";
+thirteen.style.background="red";
+thirtytwo.style.background="silver";}, 12000); 
+    
+setTimeout(function() {
+thirtyone.innerHTML=thirtytwo.innerHTML;
+thirtytwo.innerHTML="";
+thirtyone.style.background="red";
+thirteen.style.background="silver";}, 13000);    
+
+setTimeout(function() {
+twentytwo.innerHTML=seven.innerHTML;
+seven.innerHTML="";
+twentytwo.style.background="red";
+thirtyone.style.background="silver";}, 14000);      
+    
+setTimeout(function() {
+twentynine.innerHTML=thirtyseven.innerHTML;
+thirtyseven.innerHTML="";
+twentynine.style.background="red";
+twentytwo.style.background="silver";}, 15000); 
+    
+setTimeout(function() {
+twentynine.style.background="silver";    
+id.innerHTML="Reset";}, 16000);}}
+
+function kingsGambitTwo() {        
+if (id.innerHTML=="Select") {   
+setTimeout(function() {
+thirtyseven.innerHTML=fiftythree.innerHTML;
+fiftythree.innerHTML="";
+id.innerHTML="Playing";    
+thirtyseven.style.background="red";}, 1000);  
+
+setTimeout(function() {
+twentynine.innerHTML=thirteen.innerHTML;
+thirteen.innerHTML="";
+twentynine.style.background="red";
+thirtyseven.style.background="silver";}, 2000);
+
+setTimeout(function() {
+thirtyeight.innerHTML=fiftyfour.innerHTML;
+fiftyfour.innerHTML="";
+thirtyeight.style.background="red";
+twentynine.style.background="silver";}, 3000);    
+
+setTimeout(function() {
+thirtyeight.innerHTML=twentynine.innerHTML;
+twentynine.innerHTML="";
+thirtyeight.style.background="red";}, 4000);
+
+setTimeout(function() {
+fourtysix.innerHTML=sixtythree.innerHTML;
+sixtythree.innerHTML="";
+fourtysix.style.background="red";
+thirtyeight.style.background="silver";}, 5000); 
+
+setTimeout(function() {
+thirtyone.innerHTML=fifteen.innerHTML;
+fifteen.innerHTML="";
+thirtyone.style.background="red";
+fourtysix.style.background="silver";}, 6000);
+    
+setTimeout(function() {
+fourty.innerHTML=fiftysix.innerHTML;
+fiftysix.innerHTML="";
+fourty.style.background="red";
+thirtyone.style.background="silver";}, 7000);    
+    
+setTimeout(function() {
+thirtynine.innerHTML=thirtyone.innerHTML;
+thirtyone.innerHTML="";
+thirtynine.style.background="red";
+fourty.style.background="silver";}, 8000);    
+    
+setTimeout(function() {
+twentynine.innerHTML=fourtysix.innerHTML;
+fourtysix.innerHTML="";
+twentynine.style.background="red";
+thirtynine.style.background="silver";}, 9000);    
+
+setTimeout(function() {
+twentytwo.innerHTML=seven.innerHTML;
+seven.innerHTML="";
+twentytwo.style.background="red";
+twentynine.style.background="silver";}, 10000);    
+    
+setTimeout(function() {
+thirtyfive.innerHTML=sixtytwo.innerHTML;
+sixtytwo.innerHTML="";
+thirtyfive.style.background="red";
+twentytwo.style.background="silver";}, 11000);    
+    
+setTimeout(function() {
+thirtyfive.style.background="silver";    
+id.innerHTML="Reset";}, 12000);}}
+
+function kingsGambitThree() {        
+if (id.innerHTML=="Select") {   
+setTimeout(function() {
+thirtyseven.innerHTML=fiftythree.innerHTML;
+fiftythree.innerHTML="";
+id.innerHTML="Playing";    
+thirtyseven.style.background="red";}, 1000);  
+
+setTimeout(function() {
+twentynine.innerHTML=thirteen.innerHTML;
+thirteen.innerHTML="";
+twentynine.style.background="red";
+thirtyseven.style.background="silver";}, 2000);
+
+setTimeout(function() {
+thirtyeight.innerHTML=fiftyfour.innerHTML;
+fiftyfour.innerHTML="";
+thirtyeight.style.background="red";
+twentynine.style.background="silver";}, 3000);
+
+setTimeout(function() {
+twentyeight.innerHTML=twelve.innerHTML;
+twelve.innerHTML="";
+twentyeight.style.background="red";
+thirtyeight.style.background="silver";}, 4000);
+
+setTimeout(function() {
+twentyeight.innerHTML=thirtyseven.innerHTML;
+thirtyseven.innerHTML="";
+twentyeight.style.background="red";}, 5000);
+
+setTimeout(function() {
+thirtyseven.innerHTML=twentynine.innerHTML;
+twentynine.innerHTML="";
+thirtyseven.style.background="red";
+twentyeight.style.background="silver";}, 6000);
+
+setTimeout(function() {
+fourtyfour.innerHTML=fiftytwo.innerHTML;
+fiftytwo.innerHTML="";
+fourtyfour.style.background="red";
+thirtyseven.style.background="silver";}, 7000);
+
+setTimeout(function() {
+twentytwo.innerHTML=seven.innerHTML;
+seven.innerHTML="";
+twentytwo.style.background="red";
+fourtyfour.style.background="silver";}, 8000);    
+ 
+setTimeout(function() {
+thirtyseven.innerHTML=fourtyfour.innerHTML;
+fourtyfour.innerHTML="";
+thirtyseven.style.background="red";
+twentytwo.style.background="silver";}, 9000);    
+    
+setTimeout(function() {
+thirtyseven.innerHTML=twentytwo.innerHTML;
+twentytwo.innerHTML="";
+thirtyseven.style.background="red";}, 10000);    
+    
+setTimeout(function() {
+fourtysix.innerHTML=sixtythree.innerHTML;
+sixtythree.innerHTML="";
+fourtysix.style.background="red";
+thirtyseven.style.background="silver";}, 11000);    
+    
+setTimeout(function() {
+twentyseven.innerHTML=six.innerHTML;
+six.innerHTML="";
+twentyseven.style.background="red";
+fourtysix.style.background="silver";}, 12000);     
+    
+setTimeout(function() {
+fiftythree.innerHTML=sixty.innerHTML;
+sixty.innerHTML="";
+fiftythree.style.background="red";
+twentyseven.style.background="silver";}, 13000);    
+ 
+setTimeout(function() {
+thirty.innerHTML=three.innerHTML;
+three.innerHTML="";
+thirty.style.background="red";
+fiftythree.style.background="silver";}, 14000);    
+    
+setTimeout(function() {
+thirty.style.background="silver";    
+id.innerHTML="Reset";}, 15000);}} 
