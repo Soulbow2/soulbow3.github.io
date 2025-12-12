@@ -4,7 +4,9 @@ main {background: crimson; height: 212px; width: 209px; border: solid 3px red; b
 
 div {display: flex;}
 
-span{background:silver; color: darkgoldenrod; text-align: center; font-size: 18px;}
+button {color: white; background: black;}
+
+span{background: silver; color: darkgoldenrod; text-align: center; font-size: 18px;}
 
 .black {
     height: 25px; 
@@ -19,6 +21,7 @@ border-radius: 3px;}
  border: solid 1px red;
 
 border-radius: 3px;}
+
 
 
 
