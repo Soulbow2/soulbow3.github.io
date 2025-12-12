@@ -8,7 +8,7 @@ header {background: black; color: white; font-size: 16px; margin: 5px;}
 
 div {display: flex;}
 
-button {width: 170px; color: white; background: black;}
+button {width: 125px; color: white; background: black;}
 
 span{background: silver; color: darkgoldenrod; text-align: center; font-size: 18px;}
 
@@ -25,6 +25,7 @@ border-radius: 3px;}
  border: solid 1px red;
 
 border-radius: 3px;}
+
 
 
 
