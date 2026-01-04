@@ -3,200 +3,150 @@
 <head>
 <meta name="viewport" content="width=device-width,initial-scale=1">     
 <meta charset="UTF-8" />
-<title>Learn Chess</title>
-<link rel="stylesheet" href="styles.css">
+<title>Firing Uzi</title>
+<link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-<br> 
-<header><u>Archer's Learn 2 Chess...</u></header>
-<br> 
-<table>
-<tr><td>    
-<main>
-<div>
-<span class="black" id="one"></span>
-<span class="white" id="two"></span>
-<span class="black" id="three"></span>
-<span class="white" id="four"></span>
-<span class="black" id="five"></span>
-<span class="white" id="six"></span>
-<span class="black" id="seven"></span>
-<span class="white" id="eight"></span>    
-</div>
-<div>
-<span class="white" id="nine"></span>
-<span class="black" id="ten"></span>
-<span class="white" id="eleven"></span>
-<span class="black" id="twelve"></span>
-<span class="white" id="thirteen"></span>
-<span class="black" id="fourteen"></span>
-<span class="white" id="fifteen"></span>  
-<span class="black" id="sixteen"></span>
-</div>
-<div>
-<span class="black" id="seventeen"></span>
-<span class="white" id="eighteen"></span>
-<span class="black" id="nineteen"></span>
-<span class="white" id="twenty"></span>
-<span class="black" id="twentyone"></span>
-<span class="white" id="twentytwo"></span>
-<span class="black" id="twentythree"></span>
-<span class="white" id="twentyfour"></span>    
-</div>
-<div>
-<span class="white" id="twentyfive"></span>
-<span class="black" id="twentysix"></span>
-<span class="white" id="twentyseven"></span>
-<span class="black" id="twentyeight"></span>
-<span class="white" id="twentynine"></span>
-<span class="black" id="thirty"></span>
-<span class="white" id="thirtyone"></span>  
-<span class="black" id="thirtytwo"></span>
-</div>  
-<div>
-<span class="black" id="thirtythree"></span>
-<span class="white" id="thirtyfour"></span>
-<span class="black" id="thirtyfive"></span>
-<span class="white" id="thirtysix"></span>
-<span class="black" id="thirtyseven"></span>
-<span class="white" id="thirtyeight"></span>
-<span class="black" id="thirtynine"></span>
-<span class="white" id="fourty"></span>    
-</div>
-<div>
-<span class="white" id="fourtyone"></span>
-<span class="black" id="fourtytwo"></span>
-<span class="white" id="fourtythree"></span>
-<span class="black" id="fourtyfour"></span>
-<span class="white" id="fourtyfive"></span>
-<span class="black" id="fourtysix"></span>
-<span class="white" id="fourtyseven"></span>  
-<span class="black" id="fourtyeight"></span>
-</div>
-<div>
-<span class="black" id="fourtynine"></span>
-<span class="white" id="fifty"></span>
-<span class="black" id="fiftyone"></span>
-<span class="white" id="fiftytwo"></span>
-<span class="black" id="fiftythree"></span>
-<span class="white" id="fiftyfour"></span>
-<span class="black" id="fiftyfive"></span>
-<span class="white" id="fiftysix"></span>    
-</div>
-<div>
-<span class="white" id="fiftyseven"></span>
-<span class="black" id="fiftyeight"></span>
-<span class="white" id="fiftynine"></span>
-<span class="black" id="sixty"></span>
-<span class="white" id="sixtyone"></span>
-<span class="black" id="sixtytwo"></span>
-<span class="white" id="sixtythree"></span>  
-<span class="black" id="sixtyfour"></span>
-</div>      
-</main> 
-</td><td>
-<section>
-<div>
-<span class="black" onclick="board(this)">♜</span>
-<span class="white" onclick="board(this)">♞</span>
-<span class="black" onclick="board(this)">♝</span>
-<span class="white" onclick="board(this)">
-♛</span>
-<span class="black" onclick="board(this)">♚</span>
-<span class="white" onclick="board(this)">♝</span>
-<span class="black" onclick="board(this)">♞</span>
-<span class="white" onclick="board(this)">♜</span>    
-</div>
-<div>
-<span class="white" onclick="board(this)">♟</span>
-<span class="black" onclick="board(this)">♟</span>
-<span class="white" onclick="board(this)">♟</span>
-<span class="black" onclick="board(this)">♟</span>
-<span class="white" onclick="board(this)">♟</span>
-<span class="black" onclick="board(this)">♟</span>
-<span class="white" onclick="board(this)">♟</span>  
-<span class="black" onclick="board(this)">♟</span>
-</div>
-<div>
-<span class="black" onclick="board(this)"></span>
-<span class="white" onclick="board(this)"></span>
-<span class="black" onclick="board(this)"></span>
-<span class="white" onclick="board(this)"></span>
-<span class="black" onclick="board(this)"></span>
-<span class="white" onclick="board(this)"></span>
-<span class="black" onclick="board(this)"></span>
-<span class="white" onclick="board(this)"></span>    
-</div>
-<div>
-<span class="white" onclick="board(this)"></span>
-<span class="black" onclick="board(this)"></span>
-<span class="white" onclick="board(this)"></span>
-<span class="black" onclick="board(this)"></span>
-<span class="white" onclick="board(this)"></span>
-<span class="black" onclick="board(this)"></span>
-<span class="white" onclick="board(this)"></span>  
-<span class="black" onclick="board(this)"></span>
-</div>  
-<div>
-<span class="black" onclick="board(this)"></span>
-<span class="white" onclick="board(this)"></span>
-<span class="black" onclick="board(this)"></span>
-<span class="white" onclick="board(this)"></span>
-<span class="black" onclick="board(this)"></span>
-<span class="white" onclick="board(this)"></span>
-<span class="black" onclick="board(this)"></span>
-<span class="white" onclick="board(this)"></span>    
-</div>
-<div>
-<span class="white" onclick="board(this)"></span>
-<span class="black" onclick="board(this)"></span>
-<span class="white" onclick="board(this)"></span>
-<span class="black" onclick="board(this)"></span>
-<span class="white" onclick="board(this)"></span>
-<span class="black" onclick="board(this)"></span>
-<span class="white" onclick="board(this)"></span>  
-<span class="black" onclick="board(this)"></span>
-</div>
-<div>
-<span class="black" onclick="board(this)">♙</span>
-<span class="white" onclick="board(this)">♙</span>
-<span class="black" onclick="board(this)">♙</span>
-<span class="white" onclick="board(this)">♙</span>
-<span class="black" onclick="board(this)">♙</span>
-<span class="white" onclick="board(this)">♙</span>
-<span class="black" onclick="board(this)">♙</span>
-<span class="white" onclick="board(this)">♙</span>    
-</div>
-<div>
-<span class="white" onclick="board(this)">♖</span>
-<span class="black" onclick="board(this)">♘</span>
-<span class="white" onclick="board(this)">♗</span>
-<span class="black" onclick="board(this)">♕</span>
-<span class="white" onclick="board(this)">♔</span>
-<span class="black" onclick="board(this)">♗</span>
-<span class="white" onclick="board(this)">♘</span>  
-<span class="black" onclick="board(this)">♖</span>
-</div>      
-</section>      
-</td></tr></table>
+<body>   
 <br>
-<div>  
-<button onclick="danishGambit()">Danish Gambit Bishop</button><button onclick="queensGambitOne()">Queens Gambit Trap</button><button onclick="kingsGambitOne()">Kings Gambit Exchange</button> 
-</div><div> 
-<button onclick="danishGambitTwo()">Danish Gambit Pawn</button><button onclick="queensGambitThree()">Queens Gambit Accept</button><button onclick="kingsGambitTwo()">Kings Gambit Accept</button> 
-</div><div> 
-<button onclick="danishGambitThree()">Danish Gambit Knight</button><button onclick="queensGambitTwo()">Queens Gambit Decline</button><button onclick="kingsGambitThree()">Kings Gambit Counter</button>
-</div><div> 
-<button onclick="danishGambitFour()">Danish Gambit Combo</button>
-</div><div> 
-<button onclick="danishGambitFive()">Danish Gambit Queen</button>
-</div>
-<br> 
+<div>
+<section>
+<button onclick="moveObjectUp()">Up</button> 
+<section></section>    
+<button onclick="myFunc(); amyFuncCount();">Fire</button>    
+<section></section>
+<button onclick="moveObjectDown()">Down</button>
+</section>    
+<div class="container">
+<div id="movement">    
 <div>   
-<button id="id" onclick="reset(this)">Start</button>  
+<main id="soldier">
+<div>
+<span class="helmet">*</span>
+</div>
+<div>
+<span class="face">.o o</span>
+</div>
+<div>
+<span class="throat"></span>
+</div>
+<div>
+<span class="sleeve-1"></span>
+<span class="shirt">*</span>
+<span class="sleeve-2"></span>    
+</div>    
+<div>
+<span class="arm-1"></span>    
+<span class="belt"></span>
+<span class="arm-2"></span>     
+</div>  
+<div>
+<span class="leg-1"></span>
+<span class="leg-2"></span>    
+</div>
+<div>
+<span class="shoe-1"></span> 
+<span class="shoe-2"></span>     
+</div>
+</main>
 </div> 
-<br> <p id="grave" style="opacity: 0%"><p>
-<script src="script.js"></script> 
+<section id="uzi-1">
+<div>    
+<span class="sight"></span> 
+</div>
+<div class="uzi-1">
+<span class="stock-1"></span>    
+<span class="stock-2"></span>
+<span class="trigger-1">=</span>    
+<span class="barrel"></span>    
+<span class="suppressor"></span> 
+<span id="fire-1"><sup></sup></span>
+</div>  
+<div>   
+<span class="grip"></span>    
+<span class="trigger-2"></span> 
+<span class="clip"></span>     
+</div>    
+</section>      
+</div>
+</div>   
+    
+    
+<div class="container">
+<div id="movement2">    
+<div>   
+<section id="soldier2">
+<div>
+<span class="helmet">*</span>
+</div>
+<div>
+<span class="face">.o o</span>
+</div>
+<div>
+<span class="throat"></span>
+</div>
+<div>
+<span class="sleeve-1"></span>
+<span class="shirt">*</span>
+<span class="sleeve-2"></span>    
+</div>    
+<div>
+<span class="arm-1"></span>    
+<span class="belt"></span>
+<span class="arm-2"></span>     
+</div>  
+<div>
+<span class="leg-1"></span>
+<span class="leg-2"></span>    
+</div>
+<div>
+<span class="shoe-1"></span> 
+<span class="shoe-2"></span>     
+</div>
+</section>
+</div> 
+<section id="uzi-2">
+<div>    
+<span class="asight"></span> 
+</div>
+<div class="uzi-1">
+    
+<span id="fire-2"><sup></sup></span>    
+<span class="asuppressor"></span> 
+<span class="abarrel"></span>     
+<span class="atrigger-1">=</span>    
+<span class="astock-2"></span>    
+<span class="astock-1"></span>    
+
+</div>  
+<div>   
+    
+    
+<span class="aclip"></span>     
+<span class="atrigger-2"></span>    
+<span class="agrip"></span>       
+</div>    
+</section>      
+</div>
+</div>  
+<section>
+<button class="btn" onclick="moveObjectUp2()">Up</button>  
+<section></section>
+<button class="btn" onclick="myFunc2(); amyFuncCount2();">Fire</button>    
+<section></section>
+<button class="btn" onclick="moveObjectDown2()">Down</button>  
+</section>   
+ <p id="count">0</p>
+<p>Score Counter</p>
+<p id="count2">0</p>   
+</div>
+
+<div>       
+   
+<p style="background:green"  id="node">Player 1</p>
+
+<p style="background:green" id="node3">Player 2</p>    
+</div>    
+<script src="script.js"></script>
 </body>
 </html>
 
