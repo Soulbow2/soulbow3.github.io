@@ -226,6 +226,7 @@ ball.style.borderRadius ="9px";
 ball.style.fontSize ="7px";
 ball.style.border= "solid 1px";
 ball.style.marginTop= "25px";
+ ball.style.marginLeft= "25px";
 ball.id = "ball";
 var output = document.getElementById("spawnPoint");
 output.appendChild(ball);       
@@ -1121,5 +1122,6 @@ fireFour.innerHTML = "";
 
 
 }
+
 
 
