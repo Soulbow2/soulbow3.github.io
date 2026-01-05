@@ -98,9 +98,10 @@ button {width: 45px;}
 
 .spawn {position: absolute;}
 
-.ground {margin-top: 105px; position: absolute; background: forestgreen; height: 575px; width: 375px;z-index: -2;}
-.sky {position: absolute; background: skyblue; height: 105px; width: 375px; z-index: -2;}
-.hud {position: absolute; margin-top: 680px; height: 250px; width: 375px; background: grey; border: solid 1px; z-index: -1;}
+.ground {margin-top: 105px; position: absolute; background: forestgreen; height: 575px; width: 390px;z-index: -2;}
+.sky {position: absolute; background: skyblue; height: 105px; width: 390px; z-index: -2;}
+.hud {position: absolute; margin-top: 620px; height: 250px; width: 390px; background: grey; border: solid 1px; z-index: -1;}
+
 
 
 
