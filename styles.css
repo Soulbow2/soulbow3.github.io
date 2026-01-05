@@ -1,4 +1,4 @@
-body {background: purple;}
+body {background: skyblue;}
 
 div {display: flex;}
 .sight {height: 6px; width: 2px; background: black; margin-left: 30px;}
@@ -11,6 +11,20 @@ div {display: flex;}
 .trigger-2 {height: 2px; width: 1px; background: black; margin-left: 2px; border: solid 1px red;}
 .clip {border: solid 1px red; height: 18px; width: 6px; background: silver; margin-left: 6px; position: relative; top: -5px;}
 
+.helmet {text-align: center; border: solid 1px black; height: 15px; width: 30px; background: silver; border-radius: 15px 15px 3px 3px; margin-left: 7px;}
+.face {border: solid 1px black; height: 20px; width: 30px; background: tan; border-radius: 7px 7px 15px 15px; margin-left: 7px;}
+.throat {border: solid 1px black; height: 5px; width: 8px; background: tan; margin-left: 18px;}
+.shirt {text-align: center; border: solid 1px black;height: 40px; width: 32px; background: linear-gradient(170deg, red, black, pink); border-radius: 7px 7px 2px 2px;}
+.sleeve-1 {height: 20px; width: 7px; background: black; border-radius: 5px 0 0 0; position: relative; top: 5px;}
+.sleeve-2 {height: 20px; width: 7px; background: black; border-radius: 0 5px 0 0; position: relative; top: 5px;}
+.belt {width: 32px; height: 2px; background: brown; margin-left: 3px;}
+.leg-1 {position :relative; top:-17px; width: 11px; height: 30px;  background: linear-gradient(170deg, forestgreen, crimson); border-radius: 2px; margin-left: 8px;}
+.leg-2 {position :relative; top:-17px;width: 11px; height: 30px; background: linear-gradient(170deg, forestgreen, crimson); border-radius: 2px; margin-left: 8px;}
+.shoe-1 {border: solid 1px black; position :relative; top:-17px; width: 10px; height: 6px; background: brown; border-radius: 2px; margin-left: 8px;}
+.shoe-2 {border: solid 1px black; position :relative; top:-17px; width: 10px; height: 6px; background: brown; border-radius: 2px; margin-left: 8px;}
+.arm-1 {position: relative; top: -16px;  height: 19px; width: 4px; background: tan; margin-left: 1px; border-radius: 0 0 2px 2px;}
+.arm-2 {position: relative; top: -16px; right: -2px;  height: 19px; width: 4px; background: tan; border-radius: 0 0 2px 2px;}
+
 .asight {height: 6px; width: 2px; background: black; margin-left: 60px;}
 .astock-1 {border: solid 1px red; height: 15px; width: 5px; background: black; border-radius: 0 5px 2px 5px;}
 .astock-2 {border: solid 1px red; height: 4px; width: 15px; background: black;}
@@ -20,41 +34,72 @@ div {display: flex;}
 .agrip {border: solid 1px purple; height: 8px; width: 3px; background: black; margin-left: 1px; border-radius: 0 0 5px 5px;}
 .atrigger-2 {height: 2px; width: 1px; background: black; margin-left: 5px; border: solid 1px red;}
 .aclip {border: solid 1px red; height: 18px; width: 6px; background: silver; margin-left: 50px; position: relative; top: -5px;}
-
-
-.helmet {text-align: center; border: solid 1px black; height: 15px; width: 30px; background: silver; border-radius: 15px 15px 3px 3px; margin-left: 7px;}
-.face {border: solid 1px black; height: 20px; width: 30px; background: tan; border-radius: 7px 7px 15px 15px; margin-left: 7px;}
-.throat {border: solid 1px black; height: 5px; width: 8px; background: tan; margin-left: 18px;}
-.shirt {text-align: center; border: solid 1px black;height: 40px; width: 32px; background: linear-gradient(170deg, red, black, pink); border-radius: 7px 7px 2px 2px;}
-.sleeve-1 {height: 20px; width: 7px; background: black; border-radius: 5px 0 0 0; position: relative; top: 5px;}
-.sleeve-2 {height: 20px; width: 7px; background: black; border-radius: 0 5px 0 0; position: relative; top: 5px;}
-.belt {width: 32px; height: 2px; background: brown; margin-left: 3px;}
-.leg-1 {position :relative; top:-17px; width: 11px; height: 30px; background: forestgreen; border-radius: 2px; margin-left: 8px;}
-.leg-2 {position :relative; top:-17px;width: 11px; height: 30px; background: linear-gradient(170deg, forestgreen, crimson); border-radius: 2px; margin-left: 8px;}
-.shoe-1 {border: solid 1px black; position :relative; top:-17px; width: 10px; height: 6px; background: brown; border-radius: 2px; margin-left: 8px;}
-.shoe-2 {border: solid 1px black; position :relative; top:-17px; width: 10px; height: 6px; background: brown; border-radius: 2px; margin-left: 8px;}
-.arm-1 {position: relative; top: -16px;  height: 19px; width: 4px; background: tan; margin-left: 1px; border-radius: 0 0 2px 2px;}
-.arm-2 {position: relative; top: -16px; right: -2px;  height: 19px; width: 4px; background: tan; border-radius: 0 0 2px 2px;}
-
-#uzi-1 {margin: 50px 15px 15px -52px; z-index: 1;}
-#fire-1 {position: absolute; left: 95px; top: -1px; width: 120px;}
-#movement {height: 1px;}
-
-#uzi-2 {margin: 50px 15px 15px -52px; z-index: 1; margin-left: -92px;}
+#uzi-2 {margin: 50px 15px 15px -52px; z-index: 1; margin-left: -90px;}
 #fire-2 {position: absolute; left: -120px; top: -1px; width: 120px; text-align: right;}
-#movement2 {height: 1px;  margin-left: 50px;}
+
+
+
+.bstock-1 {border: solid 1px red; height: 5px; width: 15px; background: black; border-radius: 0 5px 2px 5px;}
+.bstock-2 {margin-left: 11px;border: solid 1px red; height: 15px; width: 4px; background: black;}
+.bbarrel {margin-left: 10px;border: solid 1px red; height: 20px; width: 5px; background: pink;}
+.bsuppressor {margin-left: 8px; border: solid 1px purple; height: 18px; width: 8px; background: silver; border-radius: 3px 0 3px 3px;}
+.btrigger-1 { border: solid 1px red; height:30px; width:15px; border-radius: 5px 0 0 13px; background: grey;}
+.bgrip {border: solid 1px purple; height: 3px; width: 8px; background: black; margin-left: -25px; margin-top:2px; border-radius: 5px 0 0 5px;}
+.btrigger-2 {height: 1px; width: 2px; background: black; margin-left: -19px; margin-top: 9px; border: solid 1px red;}
+.bclip {border: solid 1px red; height: 6px; width: 18px; background: silver; margin-left: -31px; margin-top: 19px; position: relative; top: -5px;}
+#uzi-3 {margin: 50px 15px 15px -52px; z-index: 1;}
+#fire-3 {margin-left: 75px; margin-top: 148px; transform: rotate(270deg); text-align: end; position: absolute; left: -120px; top: -1px; width: 120px;}
+
+
+
+.cstock-1 {border: solid 1px red; height: 5px; width: 15px; background: black; border-radius: 5px 0 5px 2px;}
+.cstock-2 {margin-left: 11px;border: solid 1px red; height: 15px; width: 4px; background: black;}
+.cbarrel {margin-left: 10px;border: solid 1px red; height: 20px; width: 5px; background: pink;}
+.csuppressor {margin-left: 8px; border: solid 1px purple; height: 18px; width: 8px; background: silver; border-radius: 0 3px 3px 3px;}
+.ctrigger-1 {border: solid 1px red; height:30px; width:15px; border-radius: 13px 0 0 5px; background: grey;}
+.cgrip {border: solid 1px purple; height: 3px; width: 8px; background: black; margin-left: -25px; margin-top:2px; border-radius: 5px 0 0 5px;}
+.ctrigger-2 {height: 1px; width: 2px; background: black; margin-left: -19px; margin-top: 9px; border: solid 1px red;}
+.cclip {border: solid 1px red; height: 6px; width: 18px; background: silver; margin-left: -31px; margin-top: 19px; position: relative; top: -5px;}
+#uzi-4 {margin: 7px 0 15px -22px; z-index: -1;}
+#fire-4 {margin-left: 75px; margin-top: -68px; transform: rotate(90deg); text-align: end; position: absolute; left: -120px; top: -1px; width: 120px;}
+
+
+#uzi-3 {margin-left: -89px ; margin-top: 51px ;}
+#uzi-1 {margin: 50px 15px 15px -72px; z-index: 1;}
+#fire-1 {position: absolute; left: 95px; top: -1px; width: 320px;}
+#movement {height: 1px;}
 
 .container {opacity: 75%; height: 300px;}
 #node {width: 70px;text-align:center; opacity: 0%;}
-#node3 {width: 70px;text-align:center; opacity: 0%;}
 
 p {text-align: center; color: crimson; margin: 2px;}
+button {width: 45px;}
+.grid {display:grid; grid-template-areas: ". g1 ." "g2 g3 g4" ". g5 ."}
+.g1 {grid-area: g1;}
+.g2 {grid-area: g2;}
+.g3 {grid-area: g3;}
+.g4 {grid-area: g4;}
+.g5 {grid-area: g5;}
 
-button {transform: rotate(90deg);margin: 0 0 30px 0; width: 50px;}
-.btn {transform: rotate(270deg); margin: 0 0 30px 0;}
+.grid-1 {margin-left: 5px;display:grid; grid-template-areas: ". g9 ." "g6 . g7" ". g8 ."}
+.g9 {grid-area: g9;}
+.g6 {grid-area: g6;}
+.g7 {grid-area: g7;}
+.g8 {grid-area: g8;}
 
+.body {border: solid 1px; background: goldenrod; height: 5px; width: 9px; border-radius: 0 2px 2px 2px;}
+.tail {border: solid 1px; background: goldenrod; height: 1px; width: 5px;}
+.head {background: tan; height: 3px; width: 3px; border-radius: 1px;}
+.nose {border: solid 1px;background: tan; height: 1px; width: 1px;}
+.wings {background: silver; height: 8px; width: 5px; border-radius: 0 0 5px 1px;}
+.shift {margin-left: -13px; margin-top: 4px;}
+.wings2 {background: silver; height: 8px; width: 5px; border-radius: 5px 1px 0 0;  margin-left: -5px; margin-top: -8px;}
+.blank {opacity: 0%;}
 
+.spawn {position: absolute;}
 
+.ground {margin-top: 105px; position: absolute; background: forestgreen; height: 575px; width: 800px;z-index: -2;}
+.sky {position: absolute; background: skyblue; height: 105px; width: 800px; z-index: -2;}
 
 
 
