@@ -111,12 +111,12 @@ d += speedY;
 npc.style.transform = `translate(${c}px, ${d}px)`;   
 }, 1000);
 setInterval(() => {
-var speedX = -750; 
+var speedX = -375; 
 var speedY = 0;
 c += speedX;
 d += speedY;
 npc.style.transform = `translate(${c}px, ${d}px)`;   
-}, 30000);
+}, 15000);
     
 setInterval(() => {
 var speedX = 25; 
@@ -126,12 +126,12 @@ f += speedY;
 npc2.style.transform = `translate(${e}px, ${f}px)`;   
 }, 1500);
 setInterval(() => {
-var speedX = -750; 
+var speedX = -375; 
 var speedY = 0;
 e += speedX;
 f += speedY;
 npc2.style.transform = `translate(${e}px, ${f}px)`;   
-}, 45000);    
+}, 22500);    
 
 setInterval(() => {
 var speedX = 25; 
@@ -141,12 +141,12 @@ w += speedY;
 npc3.style.transform = `translate(${q}px, ${w}px)`;   
 }, 1000);
 setInterval(() => {
-var speedX = -750; 
+var speedX = -375; 
 var speedY = 0;
 q += speedX;
 w += speedY;
 npc3.style.transform = `translate(${q}px, ${w}px)`;   
-}, 30000);
+}, 15000);
     
 setInterval(() => {
 var speedX = 25; 
@@ -156,12 +156,12 @@ t += speedY;
 npc4.style.transform = `translate(${r}px, ${t}px)`;   
 }, 1500);
 setInterval(() => {
-var speedX = -750; 
+var speedX = -375; 
 var speedY = 0;
 r += speedX;
 t += speedY;
 npc4.style.transform = `translate(${r}px, ${t}px)`;   
-}, 45000); 
+}, 22500); 
 
 setInterval(() => {
 var speedX = 25; 
@@ -171,12 +171,12 @@ n += speedY;
 npc5.style.transform = `translate(${m}px, ${n}px)`;   
 }, 1000);
 setInterval(() => {
-var speedX = -750; 
+var speedX = -375; 
 var speedY = 0;
 m += speedX;
 n += speedY;
 npc5.style.transform = `translate(${m}px, ${n}px)`;   
-}, 30000);    
+}, 15000);    
 }
 
 
@@ -206,7 +206,7 @@ ballCount.innerHTML++;
 }, 1000);
 setInterval(() => {  
 clearTimeout2(timeout);
-ballCount.innerHTML="0";}, 30000);}
+ballCount.innerHTML="0";}, 15000);}
 
 function ball1() {
 switch (true) {
@@ -225,13 +225,13 @@ ball.id = "ball";
 var output = document.getElementById("spawnPoint");
 output.appendChild(ball);       
 setInterval(() => {
-var speedX = -750; 
+var speedX = -375; 
 var speedY = 0;
 b += speedX;
 a += speedY;
 ball.style.transform = `translate(${b}px, ${a}px)`;   
 ballCount.innerHTML = "0";
-}, 30000);
+}, 15000);
 break;}}
 
 function myFuncFire() {
@@ -253,13 +253,13 @@ birdCount.innerHTML++;
 }, 1000);    
 
 setInterval(() => {
-var speedX = -750; 
+var speedX = -375; 
 var speedY = 0;
 z += speedX;
 i += speedY;
 bird.style.transform = `translate(${z}px, ${i}px)`;
 birdCount.innerHTML = "0";    
-}, 30000);        
+}, 15000);        
     
 
 setInterval(() => {
