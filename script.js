@@ -47,6 +47,7 @@ npc5.style.borderRadius ="9px";
 npc5.style.fontSize ="7px";
 npc5.style.border= "solid 1px";
 npc5.style.marginTop= "75px";
+npc4.style.marginLeft= "25px"; 
 npc5.id = "npc5";       
     
 var npc4 = document.createElement("div");
@@ -59,6 +60,7 @@ npc4.style.borderRadius ="9px";
 npc4.style.fontSize ="7px";
 npc4.style.border= "solid 1px";
 npc4.style.marginTop= "75px";
+npc4.style.marginLeft= "25px";
 npc4.id = "npc4";      
     
 var npc3 = document.createElement("div");
@@ -71,6 +73,7 @@ npc3.style.borderRadius ="9px";
 npc3.style.fontSize ="7px";
 npc3.style.border= "solid 1px";
 npc3.style.marginTop= "75px";
+npc3.style.marginLeft= "25px";  
 npc3.id = "npc3";  
     
 var npc2 = document.createElement("div");
@@ -83,6 +86,7 @@ npc2.style.borderRadius ="9px";
 npc2.style.fontSize ="7px";
 npc2.style.border= "solid 1px";
 npc2.style.marginTop= "75px";
+npc2.style.marginLeft= "25px";  
 npc2.id = "npc2";    
     
 var npc = document.createElement("div");
@@ -95,6 +99,7 @@ npc.style.borderRadius ="9px";
 npc.style.fontSize ="7px";
 npc.style.border= "solid 1px";
 npc.style.marginTop= "75px";
+npc.style.marginLeft= "25px";  
 npc.id = "npc";
 var output2 = document.getElementById("spawnPoint2");
 output2.appendChild(npc);
@@ -1116,4 +1121,5 @@ fireFour.innerHTML = "";
 
 
 }
+
 
