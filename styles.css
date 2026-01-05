@@ -99,10 +99,11 @@ button {width: 45px;}
 .spawn {position: absolute; margin-left: 25px;}
 
 .ground {border: solid 1px; margin-top: 105px; position: absolute; background: forestgreen; height: 575px; width: 420px;z-index: -2;}
-.sky {border: solid 1px; position: absolute; background: skyblue; height: 105px; width: 420px; z-index: -2;}
+.sky {position: absolute; background: skyblue; height: 107px; width: 422px; z-index: -2;}
 .hud {position: absolute; margin-top: 620px; height: 130px; width: 420px; background: grey; border: solid 1px; z-index: -1;}
 
 #bird {margin-left: 25px;}
+
 
 
 
