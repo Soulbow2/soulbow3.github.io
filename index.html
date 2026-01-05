@@ -6,32 +6,47 @@
 <title>Firing Uzi</title>
 <link rel="stylesheet" href="styles.css" />
 </head>
-<body>   
-<br>
+<body>
+<div class="sky"></div>
+<div class="ground"></div>
+<div id="bird">
+
+    <div>   
+<span class="tail"></span>
+<span class="body"></span>
+<span class="head"></span>
+<span class="nose"></span>
+</div>
+  <div class="shift"> 
+<span id="wing1" class="wings"></span> 
+<span id="wing2" class="wings2 blank"></span> 
+     </div></div>  
+    
+ 
+
+    <section class="spawn" id="spawnPoint"></section>
+         
+<br><br><br><br>
+    <p id="score">0</p>
+   <section class="spawn" id="spawnPoint2"></section>      
 <div>
-<section>
-<button onclick="moveObjectUp()">Up</button> 
-<section></section>    
-<button onclick="myFunc(); amyFuncCount();">Fire</button>    
-<section></section>
-<button onclick="moveObjectDown()">Down</button>
-</section>    
 <div class="container">
+   
 <div id="movement">    
 <div>   
 <main id="soldier">
 <div>
-<span class="helmet">*</span>
+<span class="helmet"></span>
 </div>
 <div>
-<span class="face">.o o</span>
+<span class="face"></span>
 </div>
 <div>
 <span class="throat"></span>
 </div>
 <div>
 <span class="sleeve-1"></span>
-<span class="shirt">*</span>
+<span class="shirt"></span>
 <span class="sleeve-2"></span>    
 </div>    
 <div>
@@ -48,7 +63,28 @@
 <span class="shoe-2"></span>     
 </div>
 </main>
-</div> 
+</div>
+    
+    
+    
+<section class="blank" id="uzi-2">
+<div>    
+<span class="asight"></span> 
+</div>
+<div class="uzi-1"> 
+<span id="fire-2"><sup></sup></span>    
+<span class="asuppressor"></span> 
+<span class="abarrel"></span>     
+<span class="atrigger-1"></span>    
+<span class="astock-2"></span>    
+<span class="astock-1"></span>    
+</div>  
+<div>    
+<span class="aclip"></span>     
+<span class="atrigger-2"></span>    
+<span class="agrip"></span>       
+</div>    
+</section>          
 <section id="uzi-1">
 <div>    
 <span class="sight"></span> 
@@ -56,7 +92,7 @@
 <div class="uzi-1">
 <span class="stock-1"></span>    
 <span class="stock-2"></span>
-<span class="trigger-1">=</span>    
+<span class="trigger-1"></span>    
 <span class="barrel"></span>    
 <span class="suppressor"></span> 
 <span id="fire-1"><sup></sup></span>
@@ -66,90 +102,133 @@
 <span class="trigger-2"></span> 
 <span class="clip"></span>     
 </div>    
-</section>      
-</div>
-</div>   
+</section> 
     
     
-<div class="container">
-<div id="movement2">    
-<div>   
-<section id="soldier2">
+<section class="blank" id="uzi-3">
 <div>
-<span class="helmet">*</span>
+<span class="bstock-1"></span>
 </div>
-<div>
-<span class="face">.o o</span>
-</div>
-<div>
-<span class="throat"></span>
-</div>
-<div>
-<span class="sleeve-1"></span>
-<span class="shirt">*</span>
-<span class="sleeve-2"></span>    
-</div>    
-<div>
-<span class="arm-1"></span>    
-<span class="belt"></span>
-<span class="arm-2"></span>     
-</div>  
-<div>
-<span class="leg-1"></span>
-<span class="leg-2"></span>    
-</div>
-<div>
-<span class="shoe-1"></span> 
-<span class="shoe-2"></span>     
-</div>
-</section>
-</div> 
-<section id="uzi-2">
 <div>    
-<span class="asight"></span> 
-</div>
-<div class="uzi-1">
-    
-<span id="fire-2"><sup></sup></span>    
-<span class="asuppressor"></span> 
-<span class="abarrel"></span>     
-<span class="atrigger-1">=</span>    
-<span class="astock-2"></span>    
-<span class="astock-1"></span>    
-
+<span class="bstock-2"></span>        
+</div> 
+<div>    
+<div>    
+<span class="btrigger-1"></span> 
 </div>  
-<div>   
-    
-    
-<span class="aclip"></span>     
-<span class="atrigger-2"></span>    
-<span class="agrip"></span>       
+ <div> 
+<span class="bclip"></span> 
+</div>
+<div>    
+<span class="btrigger-2"></span>    
+</div>
+<div>    
+<span class="bgrip"></span>   
+</div>       
 </div>    
-</section>      
+<div> 
+<span class="bbarrel"></span>
 </div>
+<div>  
+<span class="bsuppressor"></span> 
+</div>
+   
+      
+    
+<div>
+<span id="fire-3"><sup></sup></span>  
+</div> 
+    
+</section>              
+    
+  
+<section class="blank" id="uzi-4">
+
+
+
+
+   
+      
+    
+<div>
+<span id="fire-4"><sup></sup></span>  
+</div> 
+<div>  
+<span class="csuppressor"></span> 
+</div> 
+<div> 
+<span class="cbarrel"></span>
+</div>
+<div>    
+<div>    
+<span class="ctrigger-1"></span> 
 </div>  
-<section>
-<button class="btn" onclick="moveObjectUp2()">Up</button>  
-<section></section>
-<button class="btn" onclick="myFunc2(); amyFuncCount2();">Fire</button>    
-<section></section>
-<button class="btn" onclick="moveObjectDown2()">Down</button>  
+ <div> 
+<span class="cclip"></span> 
+</div>
+<div>    
+<span class="ctrigger-2"></span>    
+</div>
+<div>    
+<span class="cgrip"></span>   
+</div>       
+</div>
+<div>    
+<span class="cstock-2"></span>        
+</div>    
+<div>         
+<span class="cstock-1"></span>
+</div>
+</section>              
+    
+    
+</div> 
+</div>    
+</div>
+    <br><br><br>
+ <section class="g3">   
+<button style="background: green; margin-left: 117px" id="fire" onclick="myFunc(); myFuncFire();">Fire</button>    
+</section>    
+<div>  
+<section class="grid">
+<section class="g1">    
+<button style="background: red" onclick="moveObjectUp()">Up</button> 
+</section>
+<section class="g2">    
+<button style="background: blue" onclick="moveObjectLeft()">Left</button> 
+</section>
+<section class="g4">    
+<button style="background: green" onclick="moveObjectRight()">Right</button> 
+</section>    
+<section class="g5">
+<button style="background: yellow" onclick="moveObjectDown()">Down</button>
+</section> 
 </section>   
- 
-</div>
-
-<div>       
-  <p id="count">0</p>
-<p>Score Counter</p>
-<p id="count2">0</p>    
+    
+<section class="grid-1">
+<section class="g6">
+<button style="background: yellow" onclick="shiftObject1()">Shift</button>
+</section> 
+<section class="g7">
+<button style="background: yellow" onclick="shiftObject2()">Shift</button>
+</section> 
+<section class="g8">
+<button style="background: yellow" onclick="shiftObject3()">Shift</button>
+</section> 
+<section class="g9">
+<button style="background: yellow" onclick="shiftObject4()">Shift</button>
+</section>         
+</section>    
+<p id="count">0</p> 
+<p id="count2">0</p>     
 <p style="background:green"  id="node">Player 1</p>
-
-<p style="background:green" id="node3">Player 2</p>    
-</div>    
+</div> 
+<p id="ballCount">0</p>
+<p id="ballCount2">0</p>
+<p id="birdCount">0</p>     
 <script src="script.js"></script>
 </body>
 </html>
-
 
 
 
