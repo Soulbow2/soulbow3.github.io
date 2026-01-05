@@ -327,57 +327,11 @@ count2.innerHTML="13";
 break;  
 case count2.innerHTML == "15":
 count2.innerHTML="14";
-break;        
-        
-  case count2.innerHTML == "16":
-    count2.innerHTML="15";
-    break;
-case count2.innerHTML == "17":
-count2.innerHTML="16";
-break;           
-case count2.innerHTML == "18":
-count2.innerHTML="17";
-break;  
-case count2.innerHTML == "19":
-count2.innerHTML="18";
-break;
-case count2.innerHTML == "20":
-count2.innerHTML="19";
-break;  
-case count2.innerHTML == "21":
-count2.innerHTML="20";
-break;
-case count2.innerHTML == "22":
-count2.innerHTML="21";
-break;  
-case count2.innerHTML == "23":
-count2.innerHTML="22";
-break;
-case count2.innerHTML == "24":
-count2.innerHTML="23";
-break;  
-case count2.innerHTML == "25":
-count2.innerHTML="24";
-break;
-case count2.innerHTML == "26":
-count2.innerHTML="25";
-break;  
-case count2.innerHTML == "27":
-count2.innerHTML="26";
-break;
-case count2.innerHTML == "28":
-count2.innerHTML="27";
-break;
-case count2.innerHTML == "29":
-count2.innerHTML="28";
-break;  
-case count2.innerHTML == "30":
-count2.innerHTML="29";        
 break;}break;} }
 
 function shiftObject2() {  
 switch(true) {
-    case count2.innerHTML != "30":
+    case count2.innerHTML != "15":
     var speedX = 25; 
 var speedY = 0;
 x += speedX;
@@ -428,51 +382,6 @@ count2.innerHTML="14";
 break;  
 case count2.innerHTML == "14":
 count2.innerHTML="15";
-break;        
-case count2.innerHTML == "15":
-count2.innerHTML="16";
-break;           
-case count2.innerHTML == "16":
-count2.innerHTML="17";
-break;           
-case count2.innerHTML == "17":
-count2.innerHTML="18";
-break;  
-case count2.innerHTML == "18":
-count2.innerHTML="19";
-break;
-case count2.innerHTML == "19":
-count2.innerHTML="20";
-break;  
-case count2.innerHTML == "20":
-count2.innerHTML="21";
-break;
-case count2.innerHTML == "21":
-count2.innerHTML="22";
-break;  
-case count2.innerHTML == "22":
-count2.innerHTML="23";
-break;
-case count2.innerHTML == "23":
-count2.innerHTML="24";
-break;  
-case count2.innerHTML == "24":
-count2.innerHTML="25";
-break;
-case count2.innerHTML == "25":
-count2.innerHTML="26";
-break;  
-case count2.innerHTML == "26":
-count2.innerHTML="27";
-break;
-case count2.innerHTML == "27":
-count2.innerHTML="28";
-break;
-case count2.innerHTML == "28":
-count2.innerHTML="29";
-break;  
-case count2.innerHTML == "29":
-count2.innerHTML="30";        
 break;} break;}  
 }
 
@@ -647,59 +556,13 @@ case count2.innerHTML == "14":
 count2.innerHTML="13";
 break;  
 case count2.innerHTML == "15":
-count2.innerHTML="14";
-break;        
-        
-  case count2.innerHTML == "16":
-    count2.innerHTML="15";
-    break;
-case count2.innerHTML == "17":
-count2.innerHTML="16";
-break;           
-case count2.innerHTML == "18":
-count2.innerHTML="17";
-break;  
-case count2.innerHTML == "19":
-count2.innerHTML="18";
-break;
-case count2.innerHTML == "20":
-count2.innerHTML="19";
-break;  
-case count2.innerHTML == "21":
-count2.innerHTML="20";
-break;
-case count2.innerHTML == "22":
-count2.innerHTML="21";
-break;  
-case count2.innerHTML == "23":
-count2.innerHTML="22";
-break;
-case count2.innerHTML == "24":
-count2.innerHTML="23";
-break;  
-case count2.innerHTML == "25":
-count2.innerHTML="24";
-break;
-case count2.innerHTML == "26":
-count2.innerHTML="25";
-break;  
-case count2.innerHTML == "27":
-count2.innerHTML="26";
-break;
-case count2.innerHTML == "28":
-count2.innerHTML="27";
-break;
-case count2.innerHTML == "29":
-count2.innerHTML="28";
-break;  
-case count2.innerHTML == "30":
-count2.innerHTML="29";        
+count2.innerHTML="14";       
 break;}break;}        
 }
 
 function moveObjectRight() {  
 switch(true) {
-    case count2.innerHTML != "30":
+    case count2.innerHTML != "15":
 var speedX = 25; 
 var speedY = 0;
 x += speedX;
@@ -755,52 +618,7 @@ case count2.innerHTML == "13":
 count2.innerHTML="14";
 break;  
 case count2.innerHTML == "14":
-count2.innerHTML="15";
-break;        
-case count2.innerHTML == "15":
-count2.innerHTML="16";
-break;           
-case count2.innerHTML == "16":
-count2.innerHTML="17";
-break;           
-case count2.innerHTML == "17":
-count2.innerHTML="18";
-break;  
-case count2.innerHTML == "18":
-count2.innerHTML="19";
-break;
-case count2.innerHTML == "19":
-count2.innerHTML="20";
-break;  
-case count2.innerHTML == "20":
-count2.innerHTML="21";
-break;
-case count2.innerHTML == "21":
-count2.innerHTML="22";
-break;  
-case count2.innerHTML == "22":
-count2.innerHTML="23";
-break;
-case count2.innerHTML == "23":
-count2.innerHTML="24";
-break;  
-case count2.innerHTML == "24":
-count2.innerHTML="25";
-break;
-case count2.innerHTML == "25":
-count2.innerHTML="26";
-break;  
-case count2.innerHTML == "26":
-count2.innerHTML="27";
-break;
-case count2.innerHTML == "27":
-count2.innerHTML="28";
-break;
-case count2.innerHTML == "28":
-count2.innerHTML="29";
-break;  
-case count2.innerHTML == "29":
-count2.innerHTML="30";        
+count2.innerHTML="15";       
 break;} break;}   
 }
 
