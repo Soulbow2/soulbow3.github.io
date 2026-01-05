@@ -96,12 +96,13 @@ button {width: 45px;}
 .wings2 {background: silver; height: 8px; width: 5px; border-radius: 5px 1px 0 0;  margin-left: -5px; margin-top: -8px;}
 .blank {opacity: 0%;}
 
-.spawn {position: absolute;}
+.spawn {position: absolute; margin-left: 25px;}
 
 .ground {border: solid 1px; margin-top: 105px; position: absolute; background: forestgreen; height: 575px; width: 390px;z-index: -2;}
 .sky {border: solid 1px; position: absolute; background: skyblue; height: 105px; width: 390px; z-index: -2;}
 .hud {position: absolute; margin-top: 620px; height: 250px; width: 390px; background: grey; border: solid 1px; z-index: -1;}
 
+#bird {margin-left: 25px;}
 
 
 
