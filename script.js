@@ -429,7 +429,7 @@ break;}}
 
 function myFuncFire() {
 switch(true) {
-    case ballCount.innerHTML != birdCount.innerHTML && count.innerHTML != "1":    
+    case ballCount.innerHTML != birdCount.innerHTML && count.innerHTML != "0":    
     
 if (count2.innerHTML == birdCount.innerHTML && fire.style.background == "red") {
 score.innerHTML++;}
@@ -1312,6 +1312,7 @@ fireFour.innerHTML = "";
 
 
 }
+
 
 
 
