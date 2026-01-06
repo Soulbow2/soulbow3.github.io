@@ -222,6 +222,17 @@ hitpoints.innerHTML--;
 hitpoints.innerHTML--;
 hitpoints.innerHTML--;
 hitpoints.innerHTML--;} 
+ else if (move5.innerHTML == count2.innerHTML && count.innerHTML == "15") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;}  
 }
 
 
@@ -1312,6 +1323,7 @@ fireFour.innerHTML = "";
 
 
 }
+
 
 
 
