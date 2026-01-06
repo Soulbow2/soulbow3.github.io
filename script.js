@@ -44,6 +44,12 @@ let t = 0;
 let m = 0;
 let n = 0;
 
+function respawn() {
+ score.innerHTML="0";
+ movement.style.opacity="100%";
+hitpoints.innerHTML="100";}
+
+
 function callme() {
 if (hitpoints.innerHTML =="0") {
 movement.style.opacity="0%";
@@ -1306,4 +1312,5 @@ fireFour.innerHTML = "";
 
 
 }
+
 
