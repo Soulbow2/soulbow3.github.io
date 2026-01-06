@@ -44,10 +44,7 @@ let t = 0;
 let m = 0;
 let n = 0;
 
-function lockscreen() {
-screen.orientation.lock("portrait");}
 
-lockscreen();
 
 function restart() {
  score.innerHTML="0";
@@ -1328,6 +1325,7 @@ fireFour.innerHTML = "";
 
 
 }
+
 
 
 
