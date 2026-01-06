@@ -57,6 +57,17 @@ movement.style.opacity="0%";
 else if (hitpoints.innerHTML =="-10") {
 movement.style.opacity="0%";
 }    
+else if (move1.innerHTML == count2.innerHTML && count.innerHTML == "0") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;}
 else if (move1.innerHTML == count2.innerHTML && count.innerHTML == "1") {
 hitpoints.innerHTML--;
 hitpoints.innerHTML--;
@@ -69,6 +80,17 @@ hitpoints.innerHTML--;
 hitpoints.innerHTML--;
 hitpoints.innerHTML--;}  
 else if (move1.innerHTML == count2.innerHTML && count.innerHTML == "2") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;}    
+else if (move2.innerHTML == count2.innerHTML && count.innerHTML == "3") {
 hitpoints.innerHTML--;
 hitpoints.innerHTML--;
 hitpoints.innerHTML--;
@@ -101,6 +123,17 @@ hitpoints.innerHTML--;
 hitpoints.innerHTML--;
 hitpoints.innerHTML--;
 hitpoints.innerHTML--;}      
+else if (move3.innerHTML == count2.innerHTML && count.innerHTML == "6") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;}   
 else if (move3.innerHTML == count2.innerHTML && count.innerHTML == "8") {
 hitpoints.innerHTML--;
 hitpoints.innerHTML--;
@@ -123,6 +156,17 @@ hitpoints.innerHTML--;
 hitpoints.innerHTML--;
 hitpoints.innerHTML--;
 hitpoints.innerHTML--;}     
+else if (move4.innerHTML == count2.innerHTML && count.innerHTML == "9") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;} 
 else if (move4.innerHTML == count2.innerHTML && count.innerHTML == "11") {
 hitpoints.innerHTML--;
 hitpoints.innerHTML--;
@@ -166,7 +210,18 @@ hitpoints.innerHTML--;
 hitpoints.innerHTML--;
 hitpoints.innerHTML--;
 hitpoints.innerHTML--;
-hitpoints.innerHTML--;}      
+hitpoints.innerHTML--;} 
+ else if (move5.innerHTML == count2.innerHTML && count.innerHTML == "12") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;} 
 }
 
 
@@ -1257,6 +1312,7 @@ fireFour.innerHTML = "";
 
 
 }
+
 
 
 
