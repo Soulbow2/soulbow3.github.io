@@ -1,4 +1,10 @@
-body {background: skyblue; margin: 5px 0 0 0;}
+body {background: skyblue; margin: 5px 0 0 0;
+     
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;    }
 
 div {display: flex;}
 .sight {height: 6px; width: 2px; background: black; margin-left: 30px;}
@@ -103,6 +109,7 @@ button {width: 45px;}
 .hud {position: absolute; margin-top: 620px; height: 140px; width: 420px; background: grey; border: solid 1px; z-index: -1;}
 
 #bird {margin-left: 25px;}
+
 
 
 
