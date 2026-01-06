@@ -1,3 +1,11 @@
+const move1= document.getElementById("move1");
+const move2= document.getElementById("move2");
+const move3= document.getElementById("move3");
+const move4= document.getElementById("move4");
+const move5= document.getElementById("move5");
+const hitpoints= document.getElementById("hitpoints");
+
+
 const fireOne= document.getElementById("fire-1");
 const fireTwo= document.getElementById("fire-2");
 const fireThree= document.getElementById("fire-3");
@@ -35,6 +43,184 @@ let r = 0;
 let t = 0;
 let m = 0;
 let n = 0;
+
+function callme() {
+if (hitpoints.innerHTML =="0") {
+movement.style.opacity="0%";
+}
+else if (hitpoints.innerHTML =="-10") {
+movement.style.opacity="0%";
+}    
+else if (move1.innerHTML == count2.innerHTML && count.innerHTML == "1") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;}
+else if (move1.innerHTML == count2.innerHTML && count.innerHTML == "0") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;}   
+else if (move1.innerHTML == count2.innerHTML && count.innerHTML == "2") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;}    
+else if (move2.innerHTML == count2.innerHTML && count.innerHTML == "4") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;}    
+else if (move2.innerHTML == count2.innerHTML && count.innerHTML == "3") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;}  
+else if (move2.innerHTML == count2.innerHTML && count.innerHTML == "5") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;}      
+else if (move3.innerHTML == count2.innerHTML && count.innerHTML == "8") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;}        
+else if (move3.innerHTML == count2.innerHTML && count.innerHTML == "7") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;} 
+else if (move3.innerHTML == count2.innerHTML && count.innerHTML == "9") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;}        
+else if (move4.innerHTML == count2.innerHTML && count.innerHTML == "11") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;}        
+else if (move4.innerHTML == count2.innerHTML && count.innerHTML == "10") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;}      
+else if (move4.innerHTML == count2.innerHTML && count.innerHTML == "12") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;}          
+else if (move5.innerHTML == count2.innerHTML && count.innerHTML == "14") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;} 
+else if (move5.innerHTML == count2.innerHTML && count.innerHTML == "13") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;} 
+else if (move5.innerHTML == count2.innerHTML && count.innerHTML == "15") {
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;
+hitpoints.innerHTML--;}     
+}
+
+
+
+
 function npc() {  
  
 var npc5 = document.createElement("div");
@@ -109,14 +295,14 @@ var speedY = 0;
 c += speedX;
 d += speedY;
 npc.style.transform = `translate(${c}px, ${d}px)`;   
-}, 1000);
+move1.innerHTML++;}, 1000);
 setInterval(() => {
 var speedX = -375; 
 var speedY = 0;
 c += speedX;
 d += speedY;
 npc.style.transform = `translate(${c}px, ${d}px)`;   
-}, 15000);
+move1.innerHTML="";}, 15000);
     
 setInterval(() => {
 var speedX = 25; 
@@ -124,14 +310,14 @@ var speedY = 0;
 e += speedX;
 f += speedY;
 npc2.style.transform = `translate(${e}px, ${f}px)`;   
-}, 1500);
+move2.innerHTML++;}, 1500);
 setInterval(() => {
 var speedX = -375; 
 var speedY = 0;
 e += speedX;
 f += speedY;
 npc2.style.transform = `translate(${e}px, ${f}px)`;   
-}, 22500);    
+move2.innerHTML="";}, 22500);    
 
 setInterval(() => {
 var speedX = 25; 
@@ -139,14 +325,14 @@ var speedY = 0;
 q += speedX;
 w += speedY;
 npc3.style.transform = `translate(${q}px, ${w}px)`;   
-}, 1000);
+move3.innerHTML++;}, 1000);
 setInterval(() => {
 var speedX = -375; 
 var speedY = 0;
 q += speedX;
 w += speedY;
 npc3.style.transform = `translate(${q}px, ${w}px)`;   
-}, 15000);
+move3.innerHTML="";}, 15000);
     
 setInterval(() => {
 var speedX = 25; 
@@ -154,14 +340,14 @@ var speedY = 0;
 r += speedX;
 t += speedY;
 npc4.style.transform = `translate(${r}px, ${t}px)`;   
-}, 1500);
+move4.innerHTML++;}, 1500);
 setInterval(() => {
 var speedX = -375; 
 var speedY = 0;
 r += speedX;
 t += speedY;
 npc4.style.transform = `translate(${r}px, ${t}px)`;   
-}, 22500); 
+move4.innerHTML="";}, 22500); 
 
 setInterval(() => {
 var speedX = 25; 
@@ -169,14 +355,14 @@ var speedY = 0;
 m += speedX;
 n += speedY;
 npc5.style.transform = `translate(${m}px, ${n}px)`;   
-}, 1000);
+move5.innerHTML++;}, 1000);
 setInterval(() => {
 var speedX = -375; 
 var speedY = 0;
 m += speedX;
 n += speedY;
 npc5.style.transform = `translate(${m}px, ${n}px)`;   
-}, 15000);    
+move5.innerHTML="";}, 15000);    
 }
 
 
@@ -187,7 +373,8 @@ function call() {
 setTimeout(() => {
   ball1();
 repeatball1();}, 150);    
-     
+setInterval(() => {    
+callme();}, 1000);       
 }
 
 call();
@@ -240,7 +427,10 @@ switch(true) {
     
 if (count2.innerHTML == birdCount.innerHTML && fire.style.background == "red") {
 score.innerHTML++;}
-break;}}
+break;}
+  
+}
+
 
 function birdMovement() {
 setInterval(() => {
@@ -1116,3 +1306,4 @@ fireFour.innerHTML = "";
 
 
 }
+
